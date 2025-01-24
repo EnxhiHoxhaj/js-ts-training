@@ -10,10 +10,20 @@
     <div class="container">
         <h1>Internal JS</h1>
         <div>
-            <button class="btt-es" onclick="alert('You have Click a button!')">Click</button>
+            <button class="btt-es">Click</button>
             <button class="btt-es">Click</button>
             <button class="btt-es">Click</button>
         </div>
     </div>
+    <script>
+        function popup(){
+            alert ('You have Click a button!')
+        }
+        const btn = document.querySelectorAll('.btt-es');
+        btn.forEach(function(item){
+            item.addEventListener('click', popup)
+        })
+
+    </script>
 </body>
 </html>
