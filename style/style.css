@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(255, 89, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+}
+.btt-es{
+    padding: 5px 10px;
+    margin: 25px 15px;
+    background-color: rgb(226, 160, 6);
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 5px;
+}
