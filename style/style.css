@@ -9,7 +9,7 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
 }
-.btt-es{
+button{
     padding: 5px 10px;
     margin: 25px 15px;
     background-color: rgb(226, 160, 6);
@@ -18,5 +18,13 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     border-color: transparent;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 2px rgb(226, 160, 6);
+    background-color: rgb(252, 241, 215);
+    font-size: 16px;
 }
