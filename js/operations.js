@@ -1,8 +1,13 @@
-const numero = 30;
+
 document.querySelector('form').addEventListener('submit', function(e){
     e.preventDefault();
-    let input = document.getElementById('input').value;
-    input= parseInt(input);
-    let risultato = numero + input;
-    console.log(numero, input, risultato);
+    let form = e.target; 
+    let inputone = document.getElementById('inputone').value;
+    let inputtwo = document.getElementById('inputtwo').value;
+    inputone= parseInt(inputone);
+    inputtwo= parseInt(inputtwo);
+    let risultato = inputone + inputtwo;
+    console.log(inputone, inputtwo, risultato);
+    document.getElementById('result').textContent = `Risultato: ${inputone} + ${inputtwo} = ${risultato}`
+    form.reset();
 })
